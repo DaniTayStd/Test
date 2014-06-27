@@ -1,0 +1,9 @@
+CHANGES:
+1.- EnemySpawn.CS “added stuff”
+2.- Gave tag “enemy” to the enemy prefab (they where untagged)
+3.- Healthbar.CS added into the enemy prefab
+4.- Added Tower prefab
+5.- Added Tower2.CS for tower prefab
+6.- Added a BulletScript.CS to bullet so it destroys after 3 sec
+7.- Changed section of HealthBar.cs Commented out the OnCollisionEnter and replaced it with OnTriggerEnter so the bullets don’t push the enemies and also for the tower section to work properly.
+8.- HealthBar.cs should be only for enemies and not for tower because of additional script added. Please make another HealthBar Script for towers.
